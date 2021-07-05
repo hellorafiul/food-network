@@ -72,3 +72,35 @@ color: #FB8846;
 .about-content p {
   width: 610px;
 }
+.healthy-food {
+  text-align: center;
+  padding: 100px 0px;
+}
+.food-top p {
+  display: inline-block;
+  width: 600px;
+  font-size: 20px;
+  padding-bottom: 81px;
+  margin-top: -16px;
+}
+.food-box-container{
+  padding: 0 160px;
+}
+.food-box h2{
+  color:rgb(114, 109, 109);
+  cursor: pointer;
+}
+.food-box h2:hover{
+  color:#FB8846;
+  cursor: pointer;
+}
+.food-box{
+  border: 1px solid #ddd;
+  padding: 95px 73px;
+  margin: 0 32px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 42px -3px #ddd;
+}
+.food-box:hover {
+  box-shadow: 0px 0px 30px -13px #333;
+}
