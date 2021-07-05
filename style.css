@@ -4,6 +4,15 @@ body{
 .flex{
   display: flex;
 }
+h1{
+    font-size: 50px;
+    color: #868080;
+}
+p{
+  color: #848484;
+  font-size: 18px;
+  font-family: system-ui;
+}
 .header{
   
 }
@@ -23,15 +32,10 @@ body{
   padding-top: 40px;
 }
 .header-content h1 {
-  font-size: 50px;
   width: 455px;
-  color: #868080;
 }
 .header-content p {
-  color: #848484;
-  font-size: 18px;
   width: 425px;
-  font-family: system-ui;
 }
 .orange-color{
 color: #FB8846;
@@ -44,4 +48,26 @@ color: #FB8846;
   color: white;
   margin-top: 30px;
   display: inline-block;
+}
+
+.about{
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size:cover ;
+}
+.about-content-img{
+  width: 100%;
+}
+.about-content-img img {
+  width: 42%;
+  display: inline-block;
+  padding-top: 63px;
+  padding-left: 364px;
+}
+.about-content{
+  padding-top: 175px;
+}
+.about-content p {
+  width: 610px;
 }
