@@ -1,5 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 .flex{
   display: flex;
@@ -103,4 +104,29 @@ color: #FB8846;
 }
 .food-box:hover {
   box-shadow: 0px 0px 30px -13px #333;
+}
+
+.seafood{
+background-image: url(images/food/seefood.jpg);
+background-repeat: no-repeat;
+width: 100%;
+background-position: center;
+height: 600px;
+}
+.delicious {
+  text-align: center;
+  padding-top: 190px;
+}
+.delicious h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  color: #ffa742;
+  font-size: 100px;
+  line-height: 0px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.delicious h2 {
+  font-size: 50px;
+  letter-spacing: 7px;
+  color: rgb(114, 109, 109);
 }
