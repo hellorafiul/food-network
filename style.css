@@ -60,13 +60,14 @@ color: #FB8846;
   width: 100%;
 }
 .about-content-img img {
-  width: 42%;
+  width: 47%;
   display: inline-block;
   padding-top: 63px;
   padding-left: 364px;
 }
 .about-content{
-  padding-top: 175px;
+  padding-top: 220px;
+  padding-left: 70px;
 }
 .about-content p {
   width: 610px;
