@@ -130,3 +130,53 @@ height: 600px;
   letter-spacing: 7px;
   color: rgb(114, 109, 109);
 }
+.recipies{
+
+}
+.recipies-top {
+  text-align: center;
+  padding: 0 476px;
+}
+.recipies h2 {
+  font-size: 49px;
+  font-family: cursive;
+  color: #ffa742;
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+.recipies p {
+  margin-bottom: 100px;
+}
+.recipies-container {
+  padding: 0 150px;
+}
+.blog-item {
+  width: 600px;
+  margin: 0 30px;
+  box-shadow: 8px 10px 38px -1px #ddd;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 32px;
+  height: 590px;
+}
+.blog-item img {
+  width: 400px;
+  border-radius: 20px;
+}
+.blog-item h1 {
+  font-size: 30px;
+  text-align: left;
+  padding: 0 46px;
+  font-family: cursive;
+  color: #ffa742;
+  margin-top: 50px;
+}
+.blog-item p {
+  text-align: left;
+  padding: 0 46px;
+  color: #6b6767;
+  line-height: 26px;
+}
+.date {
+  color: #4a4af3;
+}
