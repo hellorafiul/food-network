@@ -7,14 +7,25 @@ body{
 }
 h1{
     font-size: 50px;
-    color: #868080;
+    color: #848484;
 }
 p{
-  color: #848484;
+  color: #616161;;
   font-size: 18px;
   font-family: system-ui;
 }
+#active{
+  border: 2px solid #FB8846;
+  color: #FB8846;
+  font-weight: bold;
+  background-image: none;
+}
+#active:hover{
+  border-radius: 0px 30px 0px 30px;
+}
 .header{
+background-image: url(images/shapes/Frame\ 58.jpg);
+background-size: cover;
 }
 .container{
   width: 100%;
@@ -49,7 +60,10 @@ color: #FB8846;
   margin-top: 30px;
   display: inline-block;
 }
-
+.button:hover{
+  background-image:linear-gradient(to left, #FB964B, #FE4A2F) ;
+  border-radius: 0px 30px 0px 30px;
+}
 .about{
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
@@ -154,6 +168,15 @@ height: 600px;
   width: 600px;
   margin: 0 30px;
   box-shadow: 8px 10px 38px -1px #ddd;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 32px;
+  height: 590px;
+}
+.blog-item:hover {
+  width: 600px;
+  margin: 0 30px;
+  box-shadow: 2px 5px 31px 1px #ddd;
   border-radius: 20px;
   text-align: center;
   padding-top: 32px;
