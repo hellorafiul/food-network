@@ -15,7 +15,6 @@ p{
   font-family: system-ui;
 }
 .header{
-  
 }
 .container{
   width: 100%;
@@ -182,7 +181,7 @@ height: 600px;
   color: #4a4af3;
 }
 .social-share {
-  margin: 150px 179px;
+  margin: 100px 179px;
 }
 .follower-container {
   justify-content: center;
@@ -200,4 +199,16 @@ height: 600px;
 .follower-box p {
   margin: 0;
   padding-top: 15px;
+}
+footer {
+  background-color: #0B0D17;
+  text-align: center;
+  padding: 50px 0;
+}
+footer h1 {
+  font-size: 29px;
+  font-weight: 100;
+}
+footer p {
+  color: #d8d0d0;
 }
